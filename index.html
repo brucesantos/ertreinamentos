@@ -1,0 +1,90 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/master.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <div class="fullscreen">
+    <div class="content">
+      <div class="balls">
+        <div class="yellow">
+        </div>
+        <div class="purple">
+        </div>
+        <div class="red">
+        </div>
+        <div class="blue">
+        </div>
+        <div class="green">
+        </div>
+      </div>
+      <div class="logo">
+        <img src="img/er.svg" alt="">
+      </div>
+      <div class="texto">
+        <img src="img/texto.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="contato">
+    <img src="img/mail.svg" alt="enviar email">
+    <a href="mailto:er@ertreinamentos.com">er@ertreinamentos.com</a>
+    <span class="spacer">|</span>
+    <img src="img/insta.svg" alt="enviar email">
+    <a href="https://www.instagram.com/er_treinamentos/" target="_blank">@er_treinamentos</a>
+  </div>
+
+
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <!-- <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+
+  <script type="text/javascript">
+    $(document).mousemove(function(e) {
+      var x = ( (e.pageX - $(window).width() / 2) * - 0.2 ),
+      y = ( (e.pageY - $(window).height() / 2) * - 0.2 );
+      $('.yellow').css('left', x *0.8 +61 + 'px');
+      $('.yellow').css('top', y *0.8 +7 + 'px');
+      $('.purple').css('left', x *0.3 +20 + 'px');
+      $('.purple').css('top', y *0.3 +108 + 'px');
+      $('.red').css('left', x *0.5 +7 + 'px');
+      $('.red').css('top', y *0.5 +26 + 'px');
+      $('.blue').css('left', x *0.7 +117 + 'px');
+      $('.blue').css('top', y *0.7 +69 + 'px');
+      $('.green').css('left', x *0.4 +256 + 'px');
+      $('.green').css('top', y *0.4 +35 + 'px');
+    });
+  </script>
+
+
+</body>
+
+</html>
