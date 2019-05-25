@@ -25,6 +25,14 @@
 		"oAP": "/browserconfig.xml",
 		"oF": 0
 		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CNAME",
+		"oF": 0
+		},
 	"/css/_custom.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -430,7 +438,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 579533801.05174506,
-	"displayValue": "tapume",
+	"displayValue": "ertreinamentos",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-soon",
 	"iconImageWasSetByUser": 0
