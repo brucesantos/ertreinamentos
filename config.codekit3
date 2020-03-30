@@ -7,8 +7,16 @@
 		"uuidString": "61E88A48-64D1-4211-82B0-D8CC4EA28ED9"
 		}
 	],
-"creatorBuild": "31491",
+"creatorBuild": "31934",
 "files": {
+	"/404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/404.html",
+		"oF": 0
+		},
 	"/_first-steps.url": {
 		"cB": 0,
 		"ft": 8192,
@@ -181,6 +189,22 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/browserconfig.xml",
+		"oF": 0
+		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CNAME",
+		"oF": 0
+		},
 	"/css/custom.css": {
 		"aP": 1,
 		"bl": 0,
@@ -220,6 +244,44 @@
 		"oAP": "/css/swiper.min-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon.ico",
+		"oF": 0
+		},
+	"/favicon.png": {
+		"ft": 32768,
+		"iS": 884,
+		"oA": 0,
+		"oAP": "/favicon.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/humans.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/humans.txt",
+		"oF": 0
+		},
+	"/icon.png": {
+		"ft": 32768,
+		"iS": 4029,
+		"oA": 0,
+		"oAP": "/icon.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/index.html": {
 		"cB": 0,
@@ -301,6 +363,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/manual/manual.url",
+		"oF": 0
+		},
+	"/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/robots.txt",
 		"oF": 0
 		},
 	"/scss/colors.scss": {
@@ -484,6 +554,36 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/site.webmanifest",
+		"oF": 0
+		},
+	"/tile-wide.png": {
+		"ft": 32768,
+		"iS": 5800,
+		"oA": 0,
+		"oAP": "/tile-wide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/tile.png": {
+		"ft": 32768,
+		"iS": 8307,
+		"oA": 0,
+		"oAP": "/tile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		}
 	},
 "hooks": [
@@ -492,7 +592,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 583677989.59534895,
-	"displayValue": "website-completo",
+	"displayValue": "ertreinamentos",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ron",
 	"iconImageWasSetByUser": 0
@@ -930,6 +1030,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -1031,6 +1132,10 @@
 			"optionString": "'all'"
 			},
 		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1380,6 +1485,10 @@
 			},
 		"no-implied-eval": {
 			"active": 0,
+			"optionString": ""
+			},
+		"no-import-assign": {
+			"active": 1,
 			"optionString": ""
 			},
 		"no-inline-comments": {
@@ -1805,6 +1914,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -2414,7 +2527,6 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 0,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -2554,6 +2666,9 @@
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
