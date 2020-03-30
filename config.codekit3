@@ -118,17 +118,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/renata.png": {
-		"ft": 32768,
-		"iS": 116031,
-		"oA": 0,
-		"oAP": "/assets/img/renata.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/svg/er.svg": {
 		"ft": 2097152,
 		"miP": 0,
